@@ -41,8 +41,8 @@ public class CompraStepDefinition {
     }
     @Cuando("selecciono la categoria {string} agregando el {string} al carrito")
     public void seleccionoLaCategoriaAgregandoElProductosAlCarrito(String categoria, String producto) {
-        OnStage.theActorInTheSpotlight().attemptsTo(ProductosTaskCumple.add(categoria,producto));
 
+        OnStage.theActorInTheSpotlight().attemptsTo(ProductosTaskCumple.add(categoria,producto));
     }
     @Cuando("elimino el producto del carrito de comporas")
     public void eliminoElProductoDelCarritoDeComporas() {

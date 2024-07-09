@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Seleccionar dos productos de la categoria Amor y agregarlos al carrito de compras" skipped="0" tests="1" time="12.61" timestamp="2024-07-09 09:44:11"><testcase name="Seleccionar un producto de la categoría cumpleaños, agregarlo y eliminarlo del carro de compras"><error message="Could not find a matching constructor for class class co.sqasa.tasks.ProductosTask with parameters [Cumpleaños, MDF 0001]" type="java.lang.IllegalArgumentException">Could not find a matching constructor for class class co.sqasa.tasks.ProductosTask with parameters [Cumpleaños, MDF 0001]</error><system-err>Could not find a matching constructor for class class co.sqasa.tasks.ProductosTask with parameters [Cumpleaños, MDF 0001]&#13;
+net.thucydides.core.steps.StepFactory.argumentTypesFrom(StepFactory.java:309)&#13;
+net.thucydides.core.steps.StepFactory.immutableStepLibrary(StepFactory.java:297)&#13;
+net.thucydides.core.steps.StepFactory.createProxyStepLibrary(StepFactory.java:253)&#13;
+net.thucydides.core.steps.StepFactory.instantiateUniqueStepLibraryFor(StepFactory.java:221)&#13;
+net.thucydides.core.steps.StepFactory.getUniqueStepLibraryFor(StepFactory.java:155)&#13;
+co.sqasa.tasks.ProductosTaskCumple.add(ProductosTaskCumple.java:21)&#13;
+co.sqasa.stepdefinitions.CompraStepDefinition.seleccionoLaCategoriaAgregandoElProductosAlCarrito(CompraStepDefinition.java:45)&#13;
+✽.selecciono la categoria "Cumpleaños" agregando el "MDF 0001" al carrito(file:///D:/Mis%20Proyectos/Proyecto_SQA/Reto_Tecnico/Reto_Tecnico/src/test/resources/features/compra.feature:12)&#13;
+</system-err></testcase></testsuite>
